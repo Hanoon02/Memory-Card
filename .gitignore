@@ -22,3 +22,5 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 node_modules
+postcss.config.js
+tailwind.config.js
