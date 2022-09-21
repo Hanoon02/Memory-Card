@@ -1,2 +1,2 @@
 # Memory-Card
-Memory game created using React
+Memory game created using React. CSS Framework - Tailwind
