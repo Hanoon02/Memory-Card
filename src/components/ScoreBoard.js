@@ -3,9 +3,9 @@ import React from 'react';
 function ScoreBoard(props){
     return(
         <>
-            <div className='w-full text-center txt-4xl' >
+            <p className='w-full text-center text-xl' >
                 Your Score: {props.score}
-            </div>
+            </p>
         </>
     )
 }

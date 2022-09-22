@@ -7,7 +7,12 @@ function Body(){
     const [allFruit, setFruit] = useState(fruitArray);
 
     const check = (fruit) => {
-        if(allFruit.includes(fruit)){
+        if(points===9){
+            alert('You Win!');
+            setPoints(0);
+            setFruit(fruitArray);
+        }
+        else if(allFruit.includes(fruit)){
             setPoints(points + 1);
             setFruit(allFruit.filter(item => item !== fruit));
         }
